@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Analisador de Grupos Econômicos</title>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Analisador de Grupos Econômicos</h1>
+            <p>Selecione um grupo empresarial para ver a análise e a visualização do grafo.</p>
+        </header>
+        <main>
+            <div id="group-list-container">
+                <h2>Grupos Econômicos Mapeados</h2>
+                <div id="group-list"></div>
+            </div>
+            <div id="details-container">
+                <h2>Visualização e Detalhes</h2>
+                <div id="graph-visualization"></div>
+            </div>
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

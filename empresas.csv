@@ -1,59 +1,83 @@
 id_empresa,nome,setor
-1,Holding Global,Investimentos
-2,Inova Tech,Tecnologia
-3,Varejo Total,Varejo
-4,Log Express,Logística
-5,Soluções SA,Consultoria
-6,Agro Forte,Agronegócio
-7,Bio Vida,Farmacêutica
-8,Data Center Plus,Tecnologia
-9,Alpha Invest,Investimentos
-10,Beta Invest,Investimentos
-11,DAG A1,Tecnologia
-12,DAG A2,Tecnologia
-13,DAG A3,Tecnologia
-14,DAG A4,Tecnologia
-15,DAG A5,Tecnologia
-16,DAG A6,Tecnologia
-17,Ciclico B1,Finanças
-18,Ciclico B2,Finanças
-19,Ciclico B3,Finanças
-20,Ciclico B4,Finanças
-21,Ciclico B5,Finanças
-22,Ciclico B6,Finanças
-23,DAG C1,Saúde
-24,DAG C2,Saúde
-25,DAG C3,Saúde
-26,DAG C4,Saúde
-27,DAG C5,Saúde
-28,DAG C6,Saúde
-29,Conglomerado Uno Principal,Varejo
-30,Conglomerado Uno B,Varejo
-31,Conglomerado Uno C,Varejo
-32,Conglomerado Uno D,Varejo
-33,Conglomerado Uno E,Varejo
-34,Conglomerado Uno F,Varejo
-35,Conglomerado Uno G,Varejo
-36,Conglomerado Uno H,Varejo
-37,Conglomerado Uno I,Varejo
-38,Conglomerado Uno J,Varejo
-39,Conglomerado Três Principais A,Indústria
-40,Conglomerado Três Principais B,Indústria
-41,Conglomerado Três Principais C,Indústria
-42,Conglomerado Três Principais D,Indústria
-43,Conglomerado Três Principais E,Indústria
-44,Conglomerado Três Principais F,Indústria
-45,Conglomerado Três Principais G,Indústria
-46,Conglomerado Três Principais H,Indústria
-47,Conglomerado Três Principais I,Indústria
-48,Conglomerado Três Principais J,Indústria
-49,Conglomerado Sem Principal A,Energia
-50,Conglomerado Sem Principal B,Energia
-51,Conglomerado Sem Principal C,Energia
-52,Conglomerado Sem Principal D,Energia
-53,Conglomerado Sem Principal E,Energia
-54,Conglomerado Sem Principal F,Energia
-55,Conglomerado Sem Principal G,Energia
-56,Conglomerado Sem Principal H,Energia
-57,Conglomerado Sem Principal I,Energia
-58,Conglomerado Sem Principal J,Energia
+1,Empresa A,Investimentos
+2,Empresa B,Tecnologia
+3,Empresa C,Varejo
+4,Empresa D,Logística
+5,Empresa E,Consultoria
+6,Empresa F,Agronegócio
+7,Empresa G,Farmacêutica
+8,Empresa H,Tecnologia
+9,Empresa I,Investimentos
+10,Empresa J,Investimentos
+11,Empresa K,Tecnologia
+12,Empresa L,Tecnologia
+13,Empresa M,Tecnologia
+14,Empresa N,Tecnologia
+15,Empresa O,Tecnologia
+16,Empresa P,Tecnologia
+17,Empresa Q,Finanças
+18,Empresa R,Finanças
+19,Empresa S,Finanças
+20,Empresa T,Finanças
+21,Empresa U,Finanças
+22,Empresa V,Finanças
+23,Empresa W,Saúde
+24,Empresa X,Saúde
+25,Empresa Y,Saúde
+26,Empresa Z,Saúde
+27,Empresa AA,Saúde
+28,Empresa AB,Saúde
+29,Empresa AC,Varejo
+30,Empresa AD,Varejo
+31,Empresa AE,Varejo
+32,Empresa AF,Varejo
+33,Empresa AG,Varejo
+34,Empresa AH,Varejo
+35,Empresa AI,Varejo
+36,Empresa AJ,Varejo
+37,Empresa AK,Varejo
+38,Empresa AL,Varejo
+39,Empresa AM,Indústria
+40,Empresa AN,Indústria
+41,Empresa AO,Indústria
+42,Empresa AP,Indústria
+43,Empresa AQ,Indústria
+44,Empresa AR,Indústria
+45,Empresa AS,Indústria
+46,Empresa AT,Indústria
+47,Empresa AU,Indústria
+48,Empresa AV,Indústria
+49,Empresa AW,Energia
+50,Empresa AX,Energia
+51,Empresa AY,Energia
+52,Empresa AZ,Energia
+53,Empresa BA,Energia
+54,Empresa BB,Energia
+55,Empresa BC,Energia
+56,Empresa BD,Energia
+57,Empresa BE,Energia
+58,Empresa BF,Energia
+59,Empresa BG,Holding
+60,Empresa BH,Holding
+61,Empresa BI,Holding
+62,Empresa BJ,Holding
+63,Empresa BK,Holding
+64,Empresa BL,Holding
+65,Empresa BM,Holding
+66,Empresa BN,Holding
+67,Empresa BO,Holding
+68,Empresa BP,Holding
+69,Empresa BQ,Holding
+70,Empresa BR,Holding
+71,Empresa BS,Conglomerado
+72,Empresa BT,Conglomerado
+73,Empresa BU,Conglomerado
+74,Empresa BV,Conglomerado
+75,Empresa BW,Conglomerado
+76,Empresa BX,Conglomerado
+77,Empresa BY,Conglomerado
+78,Empresa BZ,Conglomerado
+79,Empresa CA,Conglomerado
+80,Empresa CB,Conglomerado
+81,Empresa CC,Conglomerado
+82,Empresa CD,Conglomerado

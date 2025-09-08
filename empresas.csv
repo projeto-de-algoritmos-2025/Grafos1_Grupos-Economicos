@@ -9,3 +9,51 @@ id_empresa,nome,setor
 8,Data Center Plus,Tecnologia
 9,Alpha Invest,Investimentos
 10,Beta Invest,Investimentos
+11,DAG A1,Tecnologia
+12,DAG A2,Tecnologia
+13,DAG A3,Tecnologia
+14,DAG A4,Tecnologia
+15,DAG A5,Tecnologia
+16,DAG A6,Tecnologia
+17,Ciclico B1,Finanças
+18,Ciclico B2,Finanças
+19,Ciclico B3,Finanças
+20,Ciclico B4,Finanças
+21,Ciclico B5,Finanças
+22,Ciclico B6,Finanças
+23,DAG C1,Saúde
+24,DAG C2,Saúde
+25,DAG C3,Saúde
+26,DAG C4,Saúde
+27,DAG C5,Saúde
+28,DAG C6,Saúde
+29,Conglomerado Uno Principal,Varejo
+30,Conglomerado Uno B,Varejo
+31,Conglomerado Uno C,Varejo
+32,Conglomerado Uno D,Varejo
+33,Conglomerado Uno E,Varejo
+34,Conglomerado Uno F,Varejo
+35,Conglomerado Uno G,Varejo
+36,Conglomerado Uno H,Varejo
+37,Conglomerado Uno I,Varejo
+38,Conglomerado Uno J,Varejo
+39,Conglomerado Três Principais A,Indústria
+40,Conglomerado Três Principais B,Indústria
+41,Conglomerado Três Principais C,Indústria
+42,Conglomerado Três Principais D,Indústria
+43,Conglomerado Três Principais E,Indústria
+44,Conglomerado Três Principais F,Indústria
+45,Conglomerado Três Principais G,Indústria
+46,Conglomerado Três Principais H,Indústria
+47,Conglomerado Três Principais I,Indústria
+48,Conglomerado Três Principais J,Indústria
+49,Conglomerado Sem Principal A,Energia
+50,Conglomerado Sem Principal B,Energia
+51,Conglomerado Sem Principal C,Energia
+52,Conglomerado Sem Principal D,Energia
+53,Conglomerado Sem Principal E,Energia
+54,Conglomerado Sem Principal F,Energia
+55,Conglomerado Sem Principal G,Energia
+56,Conglomerado Sem Principal H,Energia
+57,Conglomerado Sem Principal I,Energia
+58,Conglomerado Sem Principal J,Energia

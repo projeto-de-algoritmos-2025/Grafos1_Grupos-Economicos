@@ -100,6 +100,7 @@ h2 {
     padding: 15px;
     border-radius: 5px;
     color: #c0392b;
+    margin-top: 20px;
 }
 
 #graph-visualization {
@@ -109,4 +110,26 @@ h2 {
     border-radius: 5px;
     margin-bottom: 20px;
     background-color: #ffffff;
+}
+
+#analysis-results {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.analysis-info h3 {
+    margin-top: 0;
+    color: #34495e;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.analysis-info .highlight-main {
+    color: #2980b9;
+    font-size: 1.2em;
+    font-weight: bold;
 }

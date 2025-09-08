@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const groupListDiv = document.getElementById('group-list');
-    const detailsContentDiv = document.getElementById('details-content');
     const graphContainer = document.getElementById('graph-visualization');
+    const analysisResultsDiv = document.getElementById('analysis-results');
     let network = null;
 
     async function loadGroupList() {
@@ -81,8 +81,32 @@ document.addEventListener('DOMContentLoaded', () => {
         network = new vis.Network(graphContainer, graphData, options);
     }
 
+    function displayAnalysis(analysis) {
+        analysisResultsDiv.innerHTML = '';
+        if (analysis.tem_ciclo !== undefined) {
+            if (analysis.tem_ciclo) {
+                analysisResultsDiv.innerHTML = `<div class="cycle-warning"><strong>Atenção:</strong> Foi detectado um ciclo neste grafo de controle.</div>`;
+            } else {
+                analysisResultsDiv.innerHTML = `
+                    <div class="analysis-info">
+                        <h3>Ordenação Topológica</h3>
+                        <p class="hierarchy">${analysis.ordem_topologica.join(' → ')}</p>
+                    </div>`;
+            }
+        } else if (analysis.principais !== undefined) {
+            let content = '<h3>Empresa Principal (por nº de parcerias)</h3>';
+            if (analysis.mensagem) {
+                content += `<p>${analysis.mensagem}</p>`;
+            } else {
+                content += `<p class="highlight-main">${analysis.principais.join(', ')}</p>`;
+            }
+            analysisResultsDiv.innerHTML = `<div class="analysis-info">${content}</div>`;
+        }
+    }
+
     async function loadGroupDetails(groupId) {
-        graphContainer.innerHTML = '';
+        graphContainer.innerHTML = 'Carregando...';
+        analysisResultsDiv.innerHTML = '';
         try {
             const response = await fetch(`http://127.0.0.1:5001/api/group/${groupId}`);
             if (!response.ok) throw new Error('Grupo não encontrado ou erro no servidor.');
@@ -90,7 +114,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
 
             drawGraph(data);
-
+            
+            displayAnalysis(data.visualizacao_grafo.analise);
         } catch (error) {
             detailsContentDiv.innerHTML = `<p class="highlight">Erro ao carregar detalhes: ${error.message}</p>`;
         }

@@ -13,8 +13,8 @@ grupos_economicos_analisados = analisador.analisar_grupos_economicos()
 resultados_detalhados = {}
 for grupo_info in grupos_economicos_analisados:
     grupo_id_str = str(grupo_info['id_grupo'])
-    membros_ids = [k for k, v in analisador.node_names.items() if v in grupo_info['membros']]
-    
+    membros_ids = grupo_info['membros_ids']
+
     dados_grafo = analisador.obter_dados_do_grafo_para_grupo(membros_ids)
     
     resultados_detalhados[grupo_id_str] = {

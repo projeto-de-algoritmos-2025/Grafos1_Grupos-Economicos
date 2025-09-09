@@ -15,29 +15,29 @@ O projeto aplica algoritmos de grafos para analisar e visualizar redes de relaci
 Um grupo econômico consiste em um conjunto de empresas, e o grafo que o representa depende da natureza da relação entre elas. Se a relação for de parceria, o grafo é não direcionado, pois as empresas mantêm vínculos mútuos. Já em uma relação de controle, o grafo deve ser direcionado, uma vez que uma empresa tem impacto direto nas decisões da outra. Dessa forma, é possível realizar um estudo visual das interações empresariais, o que facilita a compreensão dessas dinâmicas e a melhor visualização do impacto que elas causam.
 
 ## Screenshots
-<center>Grafo do Grupo 10</center>
+<div align="center">Grafo do Grupo 10</div>
 <img width="1521" height="810" alt="Grafo10" src="https://github.com/user-attachments/assets/ae3d178a-45ec-472a-bd4b-c41c0f0923d9" />
-<center>Grafo direcionado demonstra a relação do Grupo 10 e sua ordenação topológica</center>
+<div align="center">Grafo direcionado demonstra a relação do Grupo 10 e sua ordenação topológica</div>
 <br>
-<center>Grafo do Grupo 9</center>
+<div align="center">Grafo do Grupo 9</div>
 <img width="1513" height="810" alt="Grafo9" src="https://github.com/user-attachments/assets/345fa283-9caf-477c-b89b-d267f03cd117" />
-<center>Grafo direcionado demonstra a relação do Grupo 9 e sua ordenação topológica</center>
+<div align="center">Grafo direcionado demonstra a relação do Grupo 9 e sua ordenação topológica</div>
 <br>
-<center>Grafo do Grupo 8</center>
+<div align="center">Grafo do Grupo 8</div>
 <img width="1524" height="822" alt="Graffo8" src="https://github.com/user-attachments/assets/6dfb45c4-2a8c-47c9-875a-48a938eddd20" />
-<center>Grafo não direcionado demonstra a relação do Grupo 8 e suas principais empresas</center>
+<div align="center">Grafo não direcionado demonstra a relação do Grupo 8 e suas principais empresas</div>
 <br>
-<center>Grafo do Grupo 7</center>
+<div align="center">Grafo do Grupo 7</div>
 <img width="1532" height="813" alt="Grafo7" src="https://github.com/user-attachments/assets/3bec6a50-a2ef-4815-a658-a7540c68ff49" />
-<center>Grafo não direcionado demonstra a relação do Grupo 7 e suas principais empresas</center>
+<div align="center">Grafo não direcionado demonstra a relação do Grupo 7 e suas principais empresas</div>
 <br>
-<center>Grafo do Grupo 6</center>
+<div align="center">Grafo do Grupo 6</div>
 <img width="1529" height="821" alt="Grafo6" src="https://github.com/user-attachments/assets/97655a7d-1e50-4120-a8ce-a82831dcf371" />
-<center>Grafo não direcionado demonstra a relação do Grupo 6 e suas principais empresas</center>
+<div align="center">Grafo não direcionado demonstra a relação do Grupo 6 e suas principais empresas</div>
 <br>
-<center>Grafo do Grupo 4</center>
+<div align="center">Grafo do Grupo 4</div>
 <img width="1529" height="821" alt="Grafo5" src="https://github.com/user-attachments/assets/fee26b5f-598c-4a58-8a61-75895578f98b" />
-<center>Grafo direcionado demonstra a relação do Grupo 4 e um problema de ciclo</center>
+<div align="center">Grafo direcionado demonstra a relação do Grupo 4 e um problema de ciclo</div>
 
 ## Instalação 
 **Linguagem**: Python, HTML, CSS e JavaScript<br>

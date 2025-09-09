@@ -69,6 +69,8 @@ Selecione um grupo para visualizar o grafo e suas respectivas características.
 ## Outros 
 Para adicionar um novo grupo de empresas ao projeto, é necessário atualizar os arquivos de dados que servem como a fonte de informação para a análise. Primeiro deve-se cadastrar as novas empresas como entidades individuais e, em seguida, especificar as relações de parceria ou controle que as conectam, formando assim um novo grupo que o sistema poderá reconhecer, analisar e exibir na interface.
 
+## Gravação 
 
+[Link para a gravação](https://www.youtube.com/watch?v=E2JLFcNlz1w)
 
 
